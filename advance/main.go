@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Sunshine9d/golang-example/routine"
+	"github.com/Sunshine9d/golang-example/advance/lab"
 )
 
 type NewAdvance struct {
@@ -12,10 +12,12 @@ type NewAdvance struct {
 func (a *NewAdvance) Run() {
 	fmt.Println("Running")
 }
+
 func main() {
 	// Create a new instance of the Advance struct
-	ad := NewAdvance{}
+	//ad := NewAdvance{}
 	// Call the Run method
-	ad.Run()
-	routine.calculate()
+	//ad.Run()
+	//routine.RunRoutine()
+	lab.RunMainLab()
 }
