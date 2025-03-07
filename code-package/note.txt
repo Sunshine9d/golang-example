@@ -1,0 +1,13 @@
+When to Use Node.js vs. Golang?
+🔹 Use Node.js When:
+✔ You need real-time applications (WebSockets, chat apps).
+✔ Your workload is I/O-bound (handling thousands of API requests).
+✔ You prefer JavaScript for frontend-backend consistency.
+✔ You need rapid development with an extensive npm ecosystem.
+
+🔹 Use Golang When:
+✔ You need extreme performance (high-concurrency APIs, microservices).
+✔ You have CPU-bound workloads (data processing, AI, heavy computation).
+✔ You need lower memory usage (efficient Goroutines).
+✔ You want a compiled, statically-typed language for better reliability.
+
